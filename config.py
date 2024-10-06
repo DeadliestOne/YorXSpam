@@ -7,8 +7,8 @@ from JARVIS.data import FRIDAY
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s', level=logging.WARNING)
 
 # Environment variables and constants
-API_ID = 18136872
-API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
+API_ID = 26416419
+API_HASH = "c109c77f5823c847b1aeb7fbd4990cc4"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
@@ -29,9 +29,9 @@ BOT_TOKENS = [
 ]
 
 # Sudo users and owner ID
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", default="6757745933").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", default="6748827895").split()))
 SUDO_USERS.extend(FRIDAY)
-OWNER_ID = int(getenv("OWNER_ID", default="7044783841"))
+OWNER_ID = int(getenv("OWNER_ID", default="6209871909"))
 SUDO_USERS.append(OWNER_ID)
 
 # Initialize Telegram clients
