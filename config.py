@@ -16,9 +16,9 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 
 # Bot tokens
 BOT_TOKENS = [
-    getenv("BOT_TOKEN", default=None),
-    getenv("BOT_TOKEN2", default=None),
-    getenv("BOT_TOKEN3", default=None),
+    getenv("7413239375:AAFH20aY3Ie4g1-x9DUrKWoKgUxhJ24AyX8", default=None),
+    getenv("7598334054:AAGvkVothxrXAAd0srj7BcITdRrGb6DkOl0", default=None),
+    getenv("7919258912:AAERMqgdLT6T0ZO60ZUrs7NfU2E_iZJEfcM", default=None),
     getenv("BOT_TOKEN4", default=None),
     getenv("BOT_TOKEN5", default=None),
     getenv("BOT_TOKEN6", default=None),
