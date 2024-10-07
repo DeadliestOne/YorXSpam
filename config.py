@@ -20,11 +20,11 @@ BOT_TOKENS = [
     getenv("7598334054:AAGvkVothxrXAAd0srj7BcITdRrGb6DkOl0", default=None),
     getenv("7919258912:AAERMqgdLT6T0ZO60ZUrs7NfU2E_iZJEfcM", default=None),
     getenv("7821644897:AAHkTCyJzcFLYUBuy_F73qQMLOd_bn92Qro", default=None),
-    getenv("", default=None),
-    getenv("BOT_TOKEN6", default=None),
-    getenv("BOT_TOKEN7", default=None),
-    getenv("BOT_TOKEN8", default=None),
-    getenv("BOT_TOKEN9", default=None),
+    getenv("7750937190:AAHtO17eyY-s4aEe1oKUTvYcjbTV6Olrnqw", default=None),
+    getenv("8000395612:AAGh9U1H5voOMFXINBKWbyTYrsalbwS3e7w", default=None),
+    getenv("7393018825:AAFUujEyJoXJhoYTjnEFxXUgMl7iddQvufA", default=None),
+    getenv("7830693639:AAG3hCHeB4QlZnIEUtHlg7573PZcWB-BgHU", default=None),
+    getenv("7988315589:AAHlFHkhrEa_NrfWw7MpTsH0ftiFEjUBBqQ", default=None),
     getenv("BOT_TOKEN10", default=None),
 ]
 
